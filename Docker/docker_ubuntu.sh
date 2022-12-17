@@ -25,6 +25,6 @@ echo "Your Docker Server has been crated."
 
 docker pull thenetworkchuck/nccoffee:frenchpress
 
-docker run -t -d -p 8080:8080 --name nccoffee thenetworkchuck/nccoffee:frenchpress
+docker run -t -d -p 80:80 --name nccoffee thenetworkchuck/nccoffee:frenchpress
 
-echo "Please Check static webapge on :8080 to confirm docker run."
+echo "Please Check static webapge on to confirm docker run."
